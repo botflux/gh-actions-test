@@ -21,5 +21,6 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
           cache: 'npm'
       - run: npm ci
-      - run: git diff HEAD~1 HEAD -- CHANGELOG.md | sed -n '/^diff/,/^diff/p' | grep "+" | tail -n +6 | awk '{print substr($0, 2)}' > CHANGES
+      - run: git log -n 1 --pretty=format:%H -- CHANGELOG.md
+      # - run: git diff HEAD~1 HEAD -- CHANGELOG.md | sed -n '/^diff/,/^diff/p' | grep "+" | tail -n +6 | awk '{print substr($0, 2)}' > CHANGES
       - run: cat CHANGES
