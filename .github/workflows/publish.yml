@@ -24,7 +24,7 @@ jobs:
       - run: git log -n 2 --pretty=format:%H -- CHANGELOG.md | tail -n +2
       - run: |
           commit="$(git log -n 2 --pretty=format:%H -- CHANGELOG.md | tail -n +2)"
-          echo "CHANGES=git diff $commit HEAD -- CHANGELOG.md | sed -n '/^diff/,/^diff/p' | grep '+' | tail -n +6 | awk '{print substr($0, 2)}'" >> $GITHUB_OUTPUT
+          echo "CHANGES=$(git diff $commit HEAD -- CHANGELOG.md | sed -n '/^diff/,/^diff/p' | grep '+' | tail -n +6 | awk '{print substr($0, 2)}')" >> $GITHUB_OUTPUT
         id: changes
 
       - uses: softprops/action-gh-release@v2
