@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.6.0](https://github.com/botflux/gh-actions-test/compare/v1.5.0...v1.6.0) (2024-12-15)
+
+
+### Features
+
+* my feature ([4f7b326](https://github.com/botflux/gh-actions-test/commit/4f7b32636eaf4d9b8155614e02312b1b3ff86475))
+
 ## [1.5.0](https://github.com/botflux/gh-actions-test/compare/v1.4.0...v1.5.0) (2024-12-15)
 
 
