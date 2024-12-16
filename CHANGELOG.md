@@ -1,5 +1,13 @@
 
 
+## [2.2.1](https://github.com/botflux/gh-actions-test/compare/v2.1.8...v2.2.1) (2024-12-16)
+
+
+### Bug Fixes
+
+* add repo infos ([2108467](https://github.com/botflux/gh-actions-test/commit/2108467249016f532f8974038a0d35f90eed410a))
+* publish with provenance ([20ec2cd](https://github.com/botflux/gh-actions-test/commit/20ec2cd7a01872a1b0dc7ec743ff88906d7494fb))
+
 ## [2.1.8](https://github.com/botflux/gh-actions-test/compare/v2.1.7...v2.1.8) (2024-12-16)
 
 ## [2.1.7](https://github.com/botflux/gh-actions-test/compare/v2.1.6...v2.1.7) (2024-12-16)
