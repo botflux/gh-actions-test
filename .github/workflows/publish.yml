@@ -9,7 +9,6 @@ jobs:
         with:
           fetch-depth: 0
           ref: main
-      - run: npm build
       - env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_CUSTOM_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
