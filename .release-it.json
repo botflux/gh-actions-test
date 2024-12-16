@@ -1,10 +1,10 @@
 {
     "$schema": "https://json.schemastore.org/release-it.json",
     "git": {
-      "commitMessage": "chore: release v${version}",
+      "commitMessage": "chore: release v${version} [skip ci]",
       "tagName": "v${version}",
       "requireCleanWorkingDir": true,
-      "requireUpstream": false
+      "requireUpstream": false,
     },
     "github": {
       "release": true,
