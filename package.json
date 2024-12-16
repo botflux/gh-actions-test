@@ -1,5 +1,5 @@
 {
-  "name": "gh-actions-test",
+  "name": "@botflux/gh-actions-test",
   "version": "1.8.0",
   "main": "index.js",
   "scripts": {

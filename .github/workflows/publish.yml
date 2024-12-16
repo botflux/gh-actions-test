@@ -1,33 +1,27 @@
-name: Publish version
+concurrency:
+  group: ${{ github.workflow }}
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: main
+      - run: npm build
+      - env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_CUSTOM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+        uses: JoshuaKGoldberg/release-it-action@v0.2.2
+
+name: Release
 
 on:
   push:
-    tags:
-      - "*"
+    branches:
+      - release
 
-jobs:
-  publish:
-    runs-on: ubuntu-latest
-
-    permissions:
-      contents: read
-      id-token: write
-
-    steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          registry-url: 'https://registry.npmjs.org'
-          cache: 'npm'
-      - run: npm ci
-      - run: git log -n 2 --pretty=format:%H -- CHANGELOG.md | tail -n +2
-      - run: |
-          commit="$(git log -n 2 --pretty=format:%H -- CHANGELOG.md | tail -n +2)"
-          echo "CHANGES=$(git diff $commit HEAD -- CHANGELOG.md | sed -n '/^diff/,/^diff/p' | grep '+' | tail -n +6 | awk '{print substr($0, 2)}')" >> $GITHUB_OUTPUT
-        id: changes
-
-      - uses: softprops/action-gh-release@v2
-        with:
-          body: ${{steps.changes.outputs.CHANGES}}
-          token: ${{ secrets.CUSTOM_GITHUB_TOKEN }}
+permissions:
+  contents: write
+  id-token: write
