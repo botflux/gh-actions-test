@@ -1,6 +1,6 @@
 {
   "name": "@botflux/gh-actions-test",
-  "version": "2.1.6",
+  "version": "2.1.7",
   "main": "index.js",
   "scripts": {
     "release": "release-it"
