@@ -1,5 +1,12 @@
 
 
+## [2.4.3](https://github.com/botflux/gh-actions-test/compare/v2.4.2...v2.4.3) (2024-12-16)
+
+
+### Bug Fixes
+
+* try to fix github release ([89a0e9f](https://github.com/botflux/gh-actions-test/commit/89a0e9f8970b95ab22088b4da2cfe88026c2b4c1))
+
 ## [2.4.2](https://github.com/botflux/gh-actions-test/compare/v2.4.1...v2.4.2) (2024-12-16)
 
 
