@@ -3,14 +3,14 @@
   "version": "1.8.0",
   "main": "index.js",
   "scripts": {
-    "version": "commit-and-tag-version"
+    "release": "release-it"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "commit-and-tag-version": "^12.5.0",
-    "release-it": "^17.1.1"
+    "release-it": "^17.0.0",
+    "@release-it/conventional-changelog": "^8.0.0"
   }
 }
