@@ -1,3 +1,27 @@
+
+
+# [2.1.0](https://github.com/botflux/gh-actions-test/compare/v1.8.0...v2.1.0) (2024-12-16)
+
+
+### Bug Fixes
+
+* fix ci ([f9fec1b](https://github.com/botflux/gh-actions-test/commit/f9fec1b6fee45e516537971a7e547bb45164e8a1))
+* fix dceps ([5a4fe2e](https://github.com/botflux/gh-actions-test/commit/5a4fe2e26b3ec0ed19a8d5ec1f74b74626553dfb))
+
+
+### Features
+
+* add release-it ([354fc72](https://github.com/botflux/gh-actions-test/commit/354fc72131e32ccf2a3211d42a9e9c3998ec0f3f))
+* add release-it config ([2984b1d](https://github.com/botflux/gh-actions-test/commit/2984b1d86817099472d12e02afc4e32565517ec3))
+* change access ([02972b8](https://github.com/botflux/gh-actions-test/commit/02972b8b7b3e9346d631ab0f9125bd8894af66fa))
+* change publish config ([c9aeb2e](https://github.com/botflux/gh-actions-test/commit/c9aeb2e2d01ad51d5b9a1d504d682105c5d4e541))
+* install nodejs ([a635b0d](https://github.com/botflux/gh-actions-test/commit/a635b0dc6b77434e9752cbea009a04d959fb82bf))
+* make it work ([8bba99c](https://github.com/botflux/gh-actions-test/commit/8bba99c2c95d5111cae7bea69ad8743b13d47233))
+* my feature ([1096fe1](https://github.com/botflux/gh-actions-test/commit/1096fe1da44157c83238089b3c67537fb2882434))
+* remove hook ([f3abbec](https://github.com/botflux/gh-actions-test/commit/f3abbec90e54be7891f3b1556326f7d1e1d8b54a))
+* try to make release it work ([6612a1a](https://github.com/botflux/gh-actions-test/commit/6612a1aa55bfdec30903a923af9f0e05d05af64e))
+* try to make release-it work ([3b20cb3](https://github.com/botflux/gh-actions-test/commit/3b20cb3ada56e0a20fd625094986829d84fa88ac))
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
