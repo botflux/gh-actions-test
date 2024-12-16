@@ -1,5 +1,7 @@
 
 
+## [2.2.6](https://github.com/botflux/gh-actions-test/compare/v2.2.5...v2.2.6) (2024-12-16)
+
 ## [2.2.5](https://github.com/botflux/gh-actions-test/compare/v2.2.4...v2.2.5) (2024-12-16)
 
 ## [2.2.4](https://github.com/botflux/gh-actions-test/compare/v2.2.3...v2.2.4) (2024-12-16)
