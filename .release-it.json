@@ -13,12 +13,6 @@
     "npm": {
       "publish": true
     },
-    "hooks": {
-      "before:init": [
-        "npm run lint",
-        "npm test"
-      ]
-    },
     "plugins": {
       "@release-it/conventional-changelog": {
         "preset": "angular",
