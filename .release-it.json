@@ -4,7 +4,7 @@
       "commitMessage": "chore: release v${version} [skip ci]",
       "tagName": "v${version}",
       "requireCleanWorkingDir": true,
-      "requireUpstream": false,
+      "requireUpstream": false
     },
     "github": {
       "release": true,
