@@ -1,5 +1,12 @@
 
 
+## [2.7.1](https://github.com/botflux/gh-actions-test/compare/v2.7.0...v2.7.1) (2024-12-27)
+
+
+### Bug Fixes
+
+* change releaseit config ([945f6f0](https://github.com/botflux/gh-actions-test/commit/945f6f0834038b57ec636e851d421c59afabf85b))
+
 # [2.7.0](https://github.com/botflux/gh-actions-test/compare/v2.6.0...v2.7.0) (2024-12-27)
 
 
