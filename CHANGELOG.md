@@ -1,5 +1,12 @@
 
 
+## [2.7.2](https://github.com/botflux/gh-actions-test/compare/v2.7.1...v2.7.2) (2024-12-27)
+
+
+### Bug Fixes
+
+* a fix ([313800f](https://github.com/botflux/gh-actions-test/commit/313800f6c65c7ac818b4fa3033d12d63b10da43c))
+
 ## [2.7.1](https://github.com/botflux/gh-actions-test/compare/v2.7.0...v2.7.1) (2024-12-27)
 
 
