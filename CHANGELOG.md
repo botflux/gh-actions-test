@@ -1,5 +1,12 @@
 
 
+# [2.5.0](https://github.com/botflux/gh-actions-test/compare/v2.4.5...v2.5.0) (2024-12-27)
+
+
+### Features
+
+* add features ([fc1e19c](https://github.com/botflux/gh-actions-test/commit/fc1e19c4e5c4b29d07051ef486e2cef5f87886ec))
+
 ## [2.4.5](https://github.com/botflux/gh-actions-test/compare/v2.4.4...v2.4.5) (2024-12-16)
 
 
