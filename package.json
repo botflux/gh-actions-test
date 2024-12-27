@@ -3,7 +3,7 @@
   "version": "2.5.0",
   "main": "index.js",
   "scripts": {
-    "release": "release-it"
+    "release": "NODE_DEBUG=release-it:* release-it -VV"
   },
   "repository": {
     "url": "https://github.com/botflux/gh-actions-test",
