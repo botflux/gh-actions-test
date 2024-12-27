@@ -1,6 +1,6 @@
 {
   "name": "@botflux/gh-actions-test",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "main": "index.js",
   "scripts": {
     "release": "NODE_DEBUG=release-it:* release-it -VV"
